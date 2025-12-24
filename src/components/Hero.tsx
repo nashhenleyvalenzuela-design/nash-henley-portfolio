@@ -31,11 +31,8 @@ const Hero = () => {
         </h1>
 
         {/* Tagline */}
-        <p className="text-lg md:text-xl text-muted-foreground max-w-xl mb-2 opacity-0 animate-fade-up delay-100">
+        <p className="text-lg md:text-xl text-muted-foreground max-w-xl mb-8 opacity-0 animate-fade-up delay-100">
           BS Information Systems Student
-        </p>
-        <p className="text-primary font-medium mb-8 opacity-0 animate-fade-up delay-200">
-          Aspiring Systems Designer
         </p>
 
         {/* CTA Buttons */}
