@@ -1,4 +1,4 @@
-import { Mail, MapPin, Send } from "lucide-react";
+import { Mail, Send } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Contact = () => {
@@ -21,7 +21,7 @@ const Contact = () => {
           <div className="space-y-6">
             {/* Email */}
             <a
-              href="mailto:nashhenleyv@gmail.com"
+              href="mailto:aclariefaith@gmail.com"
               className="flex items-center justify-center gap-4 p-4 rounded-lg bg-secondary/30 hover:bg-secondary/50 transition-colors group"
             >
               <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
@@ -29,20 +29,9 @@ const Contact = () => {
               </div>
               <div className="text-left">
                 <p className="text-xs text-muted-foreground uppercase tracking-wide">Email</p>
-                <p className="font-medium">nashhenleyv@gmail.com</p>
+                <p className="font-medium">aclariefaith@gmail.com</p>
               </div>
             </a>
-
-            {/* Location */}
-            <div className="flex items-center justify-center gap-4 p-4 rounded-lg bg-secondary/30">
-              <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center">
-                <MapPin className="w-5 h-5 text-primary" />
-              </div>
-              <div className="text-left">
-                <p className="text-xs text-muted-foreground uppercase tracking-wide">Location</p>
-                <p className="font-medium">Siniloan, Laguna, Philippines</p>
-              </div>
-            </div>
           </div>
 
           {/* CTA */}
@@ -52,7 +41,7 @@ const Contact = () => {
               size="lg"
               className="px-8 glow-effect"
             >
-              <a href="mailto:nashhenleyv@gmail.com">
+              <a href="mailto:aclariefaith@gmail.com">
                 <Send className="w-4 h-4 mr-2" />
                 Send Message
               </a>
