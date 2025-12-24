@@ -1,20 +1,30 @@
-import { Users, Monitor, FolderOpen } from "lucide-react";
+import { Monitor, FileText, MessageCircle, Users, CalendarCheck } from "lucide-react";
 
 const skills = [
   {
-    icon: Users,
-    title: "Teamwork",
-    description: "Collaborative mindset with effective communication skills for group projects and team environments.",
-  },
-  {
     icon: Monitor,
-    title: "Basic Computer Literacy",
-    description: "Proficient in essential computer operations, software applications, and digital tools.",
+    title: "Computer Literacy",
+    description: "Proficient in various software and digital tools.",
   },
   {
-    icon: FolderOpen,
-    title: "Documentation & Organization",
-    description: "Strong ability to document processes, organize files, and maintain structured workflows.",
+    icon: FileText,
+    title: "Data & Document Handling",
+    description: "Skilled in organizing and managing information.",
+  },
+  {
+    icon: MessageCircle,
+    title: "Communication Skills",
+    description: "Effective verbal and written communication.",
+  },
+  {
+    icon: Users,
+    title: "Teamwork & Collaboration",
+    description: "Works well with diverse teams and groups.",
+  },
+  {
+    icon: CalendarCheck,
+    title: "Organization Skills",
+    description: "Efficient in planning and prioritizing tasks.",
   },
 ];
 
@@ -25,13 +35,13 @@ const Skills = () => {
         {/* Section Header */}
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            My <span className="text-gradient">Skills</span>
+            What I <span className="text-gradient">Bring</span>
           </h2>
           <div className="w-16 h-1 bg-primary mx-auto rounded-full" />
         </div>
 
         {/* Skills Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
           {skills.map((skill, index) => (
             <div
               key={skill.title}
