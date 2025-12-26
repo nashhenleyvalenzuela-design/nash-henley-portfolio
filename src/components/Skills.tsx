@@ -34,8 +34,8 @@ const Skills = () => {
       <div className="section-container">
         {/* Section Header */}
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            What I <span className="text-gradient">Bring</span>
+        <h2 className="text-3xl md:text-4xl font-bold mb-4">
+            My <span className="text-gradient">Skills</span>
           </h2>
           <div className="w-16 h-1 bg-primary mx-auto rounded-full" />
         </div>
@@ -45,7 +45,7 @@ const Skills = () => {
           {skills.map((skill, index) => (
             <div
               key={skill.title}
-              className="glass-card p-6 text-center group hover:border-primary/50 transition-all duration-300 glow-effect"
+              className="glass-card p-6 text-center group transition-all duration-300"
               style={{ animationDelay: `${index * 100}ms` }}
             >
               <div className="w-14 h-14 mx-auto mb-4 rounded-xl bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
