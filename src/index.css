@@ -9,43 +9,43 @@
 
 @layer base {
   :root {
-    --background: 40 35% 97%;
-    --foreground: 30 25% 22%;
+    --background: 30 30% 96%;
+    --foreground: 25 25% 22%;
 
-    --card: 40 30% 99%;
-    --card-foreground: 30 25% 22%;
+    --card: 35 35% 99%;
+    --card-foreground: 25 25% 22%;
 
-    --popover: 40 30% 99%;
-    --popover-foreground: 30 25% 22%;
+    --popover: 35 35% 99%;
+    --popover-foreground: 25 25% 22%;
 
-    --primary: 150 30% 55%;
-    --primary-foreground: 40 30% 98%;
+    --primary: 25 40% 55%;
+    --primary-foreground: 35 30% 98%;
 
-    --secondary: 40 40% 93%;
-    --secondary-foreground: 30 25% 28%;
+    --secondary: 30 35% 92%;
+    --secondary-foreground: 25 25% 28%;
 
-    --muted: 40 30% 91%;
-    --muted-foreground: 30 20% 45%;
+    --muted: 30 25% 90%;
+    --muted-foreground: 25 20% 45%;
 
-    --accent: 30 45% 70%;
-    --accent-foreground: 30 30% 20%;
+    --accent: 20 50% 65%;
+    --accent-foreground: 25 30% 20%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 40 25% 87%;
-    --input: 40 25% 87%;
-    --ring: 150 30% 55%;
+    --border: 30 25% 86%;
+    --input: 30 25% 86%;
+    --ring: 25 40% 55%;
 
     --radius: 0.75rem;
 
-    /* Custom tokens - Soft sage/mint pastel palette */
-    --gradient-primary: linear-gradient(135deg, hsl(150 30% 55%), hsl(160 35% 50%));
-    --gradient-card: linear-gradient(145deg, hsl(40 30% 99%), hsl(40 35% 96%));
-    --gradient-glow: radial-gradient(ellipse at center, hsl(150 30% 55% / 0.15), transparent 70%);
+    /* Custom tokens - Warm nude pastel palette */
+    --gradient-primary: linear-gradient(135deg, hsl(25 40% 55%), hsl(20 45% 50%));
+    --gradient-card: linear-gradient(145deg, hsl(35 35% 99%), hsl(30 30% 96%));
+    --gradient-glow: radial-gradient(ellipse at center, hsl(25 40% 55% / 0.15), transparent 70%);
     
-    --shadow-glow: 0 0 60px hsl(150 30% 55% / 0.2);
-    --shadow-card: 0 8px 32px hsl(30 25% 22% / 0.08);
+    --shadow-glow: 0 0 60px hsl(25 40% 55% / 0.18);
+    --shadow-card: 0 8px 32px hsl(25 25% 22% / 0.08);
     
     --font-heading: 'Sora', system-ui, sans-serif;
     --font-body: 'Sora', system-ui, sans-serif;
