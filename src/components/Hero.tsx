@@ -27,7 +27,7 @@ const Hero = () => {
 
         {/* Name */}
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-4 opacity-0 animate-fade-up">
-          Clarie Faith
+          Clarie Faith Almendral
         </h1>
 
         {/* Tagline */}
