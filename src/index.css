@@ -9,43 +9,43 @@
 
 @layer base {
   :root {
-    --background: 30 25% 97%;
-    --foreground: 240 10% 20%;
+    --background: 30 30% 96%;
+    --foreground: 20 25% 20%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 240 10% 20%;
+    --card: 30 25% 98%;
+    --card-foreground: 20 25% 20%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 240 10% 20%;
+    --popover: 30 25% 98%;
+    --popover-foreground: 20 25% 20%;
 
-    --primary: 340 45% 65%;
-    --primary-foreground: 0 0% 100%;
+    --primary: 25 35% 45%;
+    --primary-foreground: 30 30% 98%;
 
-    --secondary: 30 20% 92%;
-    --secondary-foreground: 240 10% 30%;
+    --secondary: 30 25% 90%;
+    --secondary-foreground: 20 25% 25%;
 
-    --muted: 30 15% 90%;
-    --muted-foreground: 240 5% 45%;
+    --muted: 30 20% 88%;
+    --muted-foreground: 20 15% 45%;
 
-    --accent: 340 45% 65%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 15 40% 55%;
+    --accent-foreground: 30 30% 98%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 30 15% 88%;
-    --input: 30 15% 88%;
-    --ring: 340 45% 65%;
+    --border: 30 20% 85%;
+    --input: 30 20% 85%;
+    --ring: 25 35% 45%;
 
     --radius: 0.75rem;
 
-    /* Custom tokens - Soft feminine palette */
-    --gradient-primary: linear-gradient(135deg, hsl(340 45% 65%), hsl(340 55% 55%));
-    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%), hsl(30 20% 97%));
-    --gradient-glow: radial-gradient(ellipse at center, hsl(340 45% 65% / 0.1), transparent 70%);
+    /* Custom tokens - Warm nude/brown palette */
+    --gradient-primary: linear-gradient(135deg, hsl(25 35% 45%), hsl(15 40% 50%));
+    --gradient-card: linear-gradient(145deg, hsl(30 25% 98%), hsl(30 30% 95%));
+    --gradient-glow: radial-gradient(ellipse at center, hsl(25 35% 45% / 0.12), transparent 70%);
     
-    --shadow-glow: 0 0 60px hsl(340 45% 65% / 0.15);
-    --shadow-card: 0 8px 32px hsl(240 10% 20% / 0.08);
+    --shadow-glow: 0 0 60px hsl(25 35% 45% / 0.18);
+    --shadow-card: 0 8px 32px hsl(20 25% 20% / 0.08);
     
     --font-heading: 'Sora', system-ui, sans-serif;
     --font-body: 'Sora', system-ui, sans-serif;
